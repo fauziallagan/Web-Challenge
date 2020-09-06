@@ -1,0 +1,179 @@
+/* Desktop */
+body{
+    background-image: url("./gambar/9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.judul{
+    font-size: 20px;
+}
+
+
+
+nav {
+    width: 100%;
+    /* margin-left: -20%; */
+    padding-left: auto;
+    /* padding-right: 6%; */
+    background: transparent;
+    /* opacity: 0.3; */
+    position: fixed;
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    transition: 0.1s;
+    font-size: 20px;
+    color: aqua;
+    position: inherit;
+
+}
+.navbar-expand-lg:hover{
+    font-weight: 30%;
+    border-radius: auto;
+    /* border: 2px ridge rgba(6, 216, 58, 0.801); */
+    background-color: rgba(250, 235, 215, 0.445);
+  
+  }
+  
+  .nav-item,
+  .nav-item1,
+  .nav-item2,
+  .nav-item3{
+    margin-inline-start: 80px;
+    margin-inline-end: 10px;
+  }
+  .nav-item,
+  .nav-item1,
+  .nav-item2,
+  .nav-item3,:hover{
+    border: 0px solid grey;
+    transition: 0.1s;
+    border-style: double;
+    border-radius: 5px;
+    border-style: groove;
+    position:-webkit-sticky;
+  }
+
+  /* .carousel-item{
+      margin-left: 50%;
+      padding-right: 20%;
+  } */
+
+
+  
+  .d-block{
+    margin-left: 25%;
+    background-size: cover;
+}
+
+.carousel-item{
+    width: 50%;
+}
+
+.caption{
+    background-color: rgba(77, 74, 74, 0.473);
+    padding: auto;
+    margin-left: 25%;
+    width: 50%;
+}
+.caption:hover{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(245, 242, 238);
+  transition: 0.2s;
+  position: relative;
+  height: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 5%;
+
+}
+.container {
+  background-color: wheat;
+  width: 50%;
+}
+
+.carousel-item img:hover{
+  /* opacity: 0.7; */
+    filter: blur(10px);
+}
+
+/* content */
+
+.container{
+  border: 3px double grey;
+  box-shadow: 20px;
+  position: relative;
+}
+
+.gambar{
+  border: 2px dotted grey;
+  width: 30%;
+  margin-top:1%;
+  margin-left: auto;
+}
+.galery{
+  width: 30%;
+  border: 2px double wheat;
+  margin-top: 0%;
+  float: left;
+  display: block;
+
+}
+.content{
+  margin-right: 10%;
+  text-align: justify;
+  margin-bottom: 10%;
+  text-indent: 5%;
+}
+
+.gambar-awal{
+  border: 2px dotted grey;
+  width: 30%;
+  margin-top:1%;
+  margin-left: 35%;
+}
+
+
+.gambar:hover{
+  fill-opacity: unset;
+  opacity: 0.3;
+  box-shadow: rgba(247, 247, 247, 0.979);
+}
+
+
+.nama{
+  text-align: center;
+  font-size: 190%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teks{
+  margin-top: 2%;
+  text-align: justify;
+  text-indent: 5%;
+}
+
+blockquote{
+  background-color: rgba(245, 222, 179, 0.425);
+}
+.mb-0{
+  font-size: 50px;
+}
+
+blockquote:hover{
+  background: transparent;
+color: rgba(247, 247, 247, 0.979);
+
+}
+
+.content{
+  margin-bottom: 5%;
+}
+hr{
+  height: 50%;
+}

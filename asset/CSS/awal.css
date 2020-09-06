@@ -1,0 +1,229 @@
+/* Desktop */
+body{
+  background-image: url("../gambar/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+ background-color: gray;
+
+
+}
+.judul {
+  font-size: 20px;
+
+}
+a .judul{
+  padding-left: -20%;
+}
+
+.nav{
+  
+    width:100%;
+    margin-left: 60%;
+    margin-top: 1%;
+    background:transparent;
+    /* color: chartreuse; */
+    /* opacity: 0.3; */
+    /* position: relative; */
+  font-size: auto;
+  font-weight: bold;
+  font-family: sans-serif;
+  /* bahnschift */
+}
+
+.nav-link:hover{
+  font-weight: bold;
+  transition: 0.2s;
+  font-size: 20px;
+  color: aqua;
+  position: static;
+  font-feature-settings: "expt";
+}
+
+.nav-item{
+  margin-inline-start: 80px;
+  margin-inline-end: 60px;
+   
+
+}
+.nav-item1{
+  margin-inline-end: 60px;
+  color: aliceblue;
+  /* font-weight: bold; */
+}
+
+.nav-item2{
+  margin-inline-end: 60px; 
+  /* font-style: oblique; */
+
+} 
+.nav-item3{ 
+  margin-inline-end: 60px;
+
+}
+
+span{
+  width: 20%;
+  
+}
+
+fieldset{
+  text-align: center;
+  margin-top: 50%;
+  position: static;
+}
+form{
+  border-radius: 15px 50px 30px;
+  border-style: ridge;
+  /* background-color: black; */
+  text-decoration: none;
+  /* opacity: 0.5; */
+  /* z-index: 1px; */
+  /* filter: alpha(opacity=60); */
+  position: static;
+}
+
+button .btn{
+  margin-top: 2%;
+  width: 80%;
+  margin-bottom: 2%;
+  text-decoration: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+button:hover{
+  width: 50%;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.jumbotron{
+  background-color: rgba(143, 142, 142, 0.103);
+  padding-right: -20%;
+
+}
+
+
+
+
+
+ /* kalo mau make footer  */
+/* 
+footer{
+  margin-top:90px;
+  position: fixed;
+  margin-left: 70%;
+  text-align: center;
+  background-color:transparent;
+} */
+
+.countdown{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  font-weight: 200;
+
+}
+
+
+#time{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+/* .countdown{
+  margin-top: 2%;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  transform: translateY(-50%);
+  transform: translateX(-20%);
+  text-align: center;
+
+} */
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+h1 span{
+  font-size: 4em;
+}
+#clock{
+  display: flex;
+  width: 570px;
+  margin: 0 auto;
+}
+
+#clock div{
+  position: relative;
+  width: 100px;
+  padding: 20px;
+  margin: 0 5px;
+  background: #26262626;
+  color: #ffffff;
+  border: 2px solid #000000;
+}
+
+#clock div:last-child{
+background: #e91e63;
+}
+#clock div::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, .2);
+  }
+#clock div span{ 
+  display: block;
+  text-align: center;
+}
+#clock div span:nth-child(1){
+  font-size: 48px;
+  font-weight: 800;
+}
+#clock div span:nth-child(2){
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: -10px;
+}
+#clock.countdown:hover{
+  background: olive;
+
+}
+
+blockquote{
+  margin-top: 5%;
+  border: 2px dotted green;
+  color: antiquewhite;
+  border-collapse: separate;
+
+}
+
+.container-fluid{
+  background-color:rgba(170, 165, 165, 0.116);
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 0%;
+  padding-left: -2%;
+  margin-right: 30%;
+
+}
+.gambar{
+width: 50%;
+}
+.gambar1{
+  width: 10%;
+}
+.event{
+  text-align: left;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}

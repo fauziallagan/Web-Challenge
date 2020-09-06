@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="dicoding:email" content="fauziallagan@gmail.com">
+    <title>Trail Vacation</title>
+    <link rel="stylesheet" href="./framework/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="./asset/CSS/awal.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm">
+         <!-- <a href="#soon" class="navbar-brand">
+             <p class="judul">Trail Vacation <br><b>Exiting New Year With Vacation</b></p> -->
+            </a>  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="nav">       
+                <div  class="float-sm-left">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a href="./utama/choice.html" class="nav-link">Home &nbsp;<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item1">
+                                <a href="./wisata/wisata.html" class="nav-link">Destinasi Wisata &nbsp;</a>
+                            </li>
+                            <li class="nav-item2">
+                                <a href="./Kuliner/kuliner.html" class="nav-link">Kuliner &nbsp;</a>
+                            </li>
+                            <li class="nav-item3">
+                                <a href="./penginapan/penginapan.html" class="nav-link">Penginapan &nbsp;</a>
+                            </li>
+                        </ul>
+                </div>  
+            </div>
+        </div>
+    </nav>
+
+    <!-- body -->
+    
+
+
+    <!-- Countdown -->
+    <div class="container-fluid">
+
+            <div class="countdown">
+                    <h1><span>2020 <br></span> Happy New Years
+                    </h1>  
+                <div id="clock"> </div>
+            </div>
+    </div>
+
+<br>
+    <!-- Content -->
+  
+
+   <!--  Footer kalo mau dipake  -->
+   <div class="jumbotron">
+       <h1 class="event">Event By : </h1>
+     <footer class="bawah">
+        <div class="rows">
+            <div class="col-sm-6">
+                <div class="idcamp"><img src="./asset/gambar/idcamp.png" alt="thumbnails" class="gambar"></div>
+                <p> &copy; Copyright 2019-2020 : Design By Nox &cap;</p>
+            </div>   
+        </div>
+
+
+    </footer>
+</div>
+
+
+    <!-- Javascript -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="../Web Challanger/asset/css+javasctipt/countdown.js"></script>
+
+    <script type="text/javascript">
+            $('#clock').countdown('2020/1/1', function(event){
+                var $this = $(this).html(event.strftime(''
+                +'<div><span>%w</span><span>Weeks</span></div>'
+                +'<div><span>%d</span><span>days</span></div>'
+                +'<div><span>%H</span><span>Hr</span></div>'
+                +'<div><span>%M</span><span>Min</span></div>'
+                +'<div><span>%S</span><span>Sec</span></div>'
+                
+                ))
+            })
+    </script>
+
+
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>

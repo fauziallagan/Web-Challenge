@@ -1,0 +1,123 @@
+/* Desktop */
+body{
+  /* background-image: url("../gambar/background.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+ background-color: antiquewhite;
+ position: fixed;
+}
+.judul {
+  font-size: 20px;
+
+}
+.nav{
+  position: initial;
+    width: 90%; 
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: 6%;
+    background: transparent;
+    opacity: 0.3;
+    position: fixed;
+}
+.jumbotron {
+  opacity: 60%;
+  /* color:black; */
+  background: transparent;
+  font-style:italic;
+  font-size: 100%;
+  float: right;
+}
+
+.jumbotron:hover{
+  background-color:rgb(247, 171, 58);
+  z-index: 20em;
+  opacity: 30%;
+}
+.nav-item{
+  margin-inline-start: 80px;
+  margin-inline-end: 60px;
+   
+
+}
+.nav-item1{
+  margin-inline-end: 60px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.nav-item2{
+  margin-inline-end: 60px; 
+  font-style: oblique;
+
+} 
+.nav-item3{ 
+  margin-inline-end: 60px;
+
+}
+
+span{
+  width: 50%;
+}
+
+fieldset{
+  text-align: center;
+  margin-top: 10%;
+}
+form{
+  border-radius: 15px 50px 30px;
+  border-style: ridge;
+  /* background-color: black; */
+  text-decoration: none;
+  /* opacity: 0.5; */
+  /* z-index: 1px; */
+  /* filter: alpha(opacity=60); */
+}
+
+
+
+button{
+  margin-top: 2%;
+  width: 40%;
+  margin-bottom: 2%;
+  text-decoration: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+button:hover{
+  width: 50%;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+
+
+ /* kalo mau make footer  */
+/* 
+footer{
+  margin-top:90px;
+  position: fixed;
+  margin-left: 70%;
+  text-align: center;
+  background-color:transparent;
+} */
+
+.countdown{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.countdown_text{
+  display: block;
+}
+
+#time{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+

@@ -1,5 +1,6 @@
 # Web-Challenge
 
 # Team
-## Ahmad Fauzi Allagan
-## Ardhiyansyah Hadi Nugroho
+
+Ahmad Fauzi Allagan
+Ardhiyansyah Hadi Nugroho
